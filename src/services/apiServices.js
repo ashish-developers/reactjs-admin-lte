@@ -48,7 +48,6 @@ class ApiService {
   }
 
   handleError(error) {
-    console.error('API call failed. Error:', error);
     throw error;
   }
 }
