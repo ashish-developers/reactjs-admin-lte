@@ -12,7 +12,7 @@ export default class SidebarComponent extends React.Component {
             <aside id={`${this.props.showSidebar}`} className="main-sidebar sidebar-dark-primary elevation-4">
                     <a href="index3.html" className="brand-link">
                         <img src={Logo} alt="AdminLTE Logo" className="brand-image img-circle elevation-3" />
-                        <span className="brand-text font-weight-light">AdminLTE 3</span>
+                        <span className="brand-text font-weight-light">Avii.Dev</span>
                     </a>
                     <div className="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-transition os-host-overflow-x">
                         <div className="user-panel mt-3 pb-3 mb-3 d-flex">
@@ -27,6 +27,54 @@ export default class SidebarComponent extends React.Component {
                                     <a href="#" className="nav-link active">
                                         <i className="nav-icon fas fa-tachometer-alt"></i>
                                         <p>Dashboard</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-star"></i>
+                                        <p>Important</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-share-alt"></i>
+                                        <p>Shared</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-history"></i>
+                                        <p>Recents</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-trash-alt"></i>
+                                        <p>Trash</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-group"></i>
+                                        <p>Teams</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-cog"></i>
+                                        <p>App Settings</p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-user"></i>
+                                        <p>User Setting </p>
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#" className="nav-link">
+                                        <i className="nav-icon fas fa-support"></i>
+                                        <p>Support</p>
                                     </a>
                                 </li>
                             </ul>
