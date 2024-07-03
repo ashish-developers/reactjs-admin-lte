@@ -70,6 +70,7 @@ class LoginComponent extends React.Component {
         if (outPut) this.setState({ isAuthenticated : true })
       } catch(err) {
         console.log(err)
+        this.props.loaderClick();
         this.setState({ loginMessage : err.response.data.msg })
       } 
       
@@ -82,9 +83,9 @@ class LoginComponent extends React.Component {
   
   render() {
     const { formData, errors, isAuthenticated, loginMessage } = this.state;
-    if (isAuthenticated) {
-      return <Navigate to="/user/dashboard" />;
-    }
+    
+    if (isAuthenticated) return <Navigate to="/user/dashboard" />;
+
     return (
       <Auth>
         <div className="card-body">
